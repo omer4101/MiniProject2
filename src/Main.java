@@ -3,7 +3,7 @@ public class Main {
         char letter ='j';
         char[] bold_letter = {'a', 'A', 'ı', 'I', 'o', 'O', 'u', 'U'};
         char[] thin_letter = {'e', 'i', 'ö', 'ü', 'E', 'İ', 'Ö', 'Ü'};
-   // bu işlemi case ile de yapılabilir.
+   //you can do switch case.
         for (int i=0;i<8;i++){
             if (letter==bold_letter[i]){
                 System.out.println("This character is a bold and vowel.");
